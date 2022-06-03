@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+#hello-world{
+  color: #f00;
+  font-weight: 600;
+  padding: 5vh 0;
+  font-size: 1.5rem;
+}
+
+#btn-hello-console{
+  width: 10vw;
+  height: 4vh;
+  color: #fff;
+  background-color: #6AAC56;
+  border: none;  
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-hello-console:hover{
+  background-color: #6AAC5695;  
+  color: #000;
+}
+
